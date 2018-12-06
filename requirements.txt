@@ -28,3 +28,4 @@ selenium==3.12.0
 utils==0.9.0
 wget==3.2
 google-images-download==2.3.0
+bandit
