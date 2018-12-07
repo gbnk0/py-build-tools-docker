@@ -1,6 +1,6 @@
-FROM python:3.6
+FROM python:3.7
 COPY requirements.txt /requirements.txt
-RUN  pip3.6 install -r requirements.txt && \ 
+RUN  pip3.7 install -r requirements.txt && \ 
      rm requirements.txt && \
      curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
      apt-get install -y nodejs && \
